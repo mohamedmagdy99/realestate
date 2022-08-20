@@ -1,0 +1,54 @@
+.home{
+       padding: 0px;
+       display: block;
+       align-items: center;
+       max-width: 1600px;
+       margin: 0 auto;
+       
+}
+.home .intro{
+       background-image: url(https://images.unsplash.com/photo-1497465689543-5940d3cede89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       max-width: 1600px;
+       height: 400px;
+       padding: 0px;
+}
+.home .intro h1{
+       opacity: 5;
+       padding: 15px;
+       padding-top: 95px;
+       padding-left: 55px;
+}
+.home .intro p{
+       padding-left: 55px;
+}
+.home .content{
+       display:grid;
+       grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+       max-width: 1600px;
+       margin:1px auto;
+       margin-top: 70px;
+}
+.home .content img{
+       margin: 0 auto;
+       height: 300px auto;
+       width: 500px;
+       padding-left: 90px auto;
+       padding-right: 70px auto;
+}
+.home .content h3{
+       padding: 15px auto;
+}
+.home .content p{
+       padding: 15px auto;
+}
+.home .content a{
+       display: block;
+       margin-top: 20px auto;
+       text-decoration: none;
+}
+.home .content a:hover{
+       color:red;
+}

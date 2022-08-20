@@ -1,0 +1,24 @@
+.Navbar{
+       padding: 20px;
+       display: flex;
+       flex-wrap:wrap;
+       align-items: center;
+       max-width: 1600px;
+       margin: 0 auto;
+       background-color: #ffffff;
+}
+.Navbar h1{
+       color: #141619;
+}
+.Navbar .links{
+       margin-left: auto;
+       color: #141619;
+}
+.Navbar a{
+       margin-left: 16px;
+       text-decoration: none;
+       padding: 16px;
+}
+.Navbar a:hover{
+       color: royalblue;
+}

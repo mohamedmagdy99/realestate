@@ -1,0 +1,22 @@
+.Projects .content{
+       padding: 0px auto;
+       display: grid;
+       flex-wrap: wrap;
+       align-items: center;
+       max-width: 1600px;
+       margin: 0 auto;
+       
+}
+.content h2{
+       padding:10px ;
+}
+.content h4{
+       color:chocolate;
+}
+
+.flex-wrapper {
+       display:grid;
+       grid-template-columns: repeat(auto-fit,minmax(700px,1fr));
+       min-height: 76.5vh;
+       justify-content: space-between;
+     }

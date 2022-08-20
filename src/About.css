@@ -1,0 +1,21 @@
+.About .content{
+       padding: 0px;
+       display: grid;
+       align-items: center;
+       max-width: 1600px;
+       margin: 0 auto;
+       
+}
+.content p{
+       margin: 20px;
+       flex-grow:1;
+}
+.content h1{
+       margin: 20px auto;
+}
+.flex-wrapper {
+       display: flex;
+       min-height: 76.5vh;
+       flex-direction: column;
+       justify-content: space-between;
+     }

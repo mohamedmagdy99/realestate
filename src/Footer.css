@@ -1,0 +1,32 @@
+.footer{
+       padding: 20px;
+       display: flex;
+       flex-wrap:wrap;
+       align-items: center;
+       max-width: 1600px;
+       margin: 20px auto;
+       background-color: #141619;
+       margin-bottom: 0;
+       height: 100px;
+}
+.footer h1{
+       color: #f1f1f1;
+       
+}
+.footer .links{
+       margin-left: auto;
+       color: #f1f1f1;
+       
+}
+.footer a{
+       margin-left: 16px auto;
+       text-decoration: none;
+       padding: 16px;
+}
+.footer a:hover{
+       color: whitesmoke;
+}
+.rights{
+       display: block;
+       padding-left: 20px auto;
+}
